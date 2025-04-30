@@ -1,0 +1,8 @@
+# Ignore all hidden files/folders
+.*
+
+# Don't ignore the .gitignore file itself
+!.gitignore
+
+# Ignore all .ipynb_checkpoints in the repo
+**/.ipynb_checkpoints/
