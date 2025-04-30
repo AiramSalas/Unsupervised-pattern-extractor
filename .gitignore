@@ -6,3 +6,8 @@
 
 # Ignore all .ipynb_checkpoints in the repo
 **/.ipynb_checkpoints/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/

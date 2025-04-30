@@ -9,5 +9,5 @@ DATAFRAMES_DIR = BASE_DIR / "dataframes_parquet_files"
 NOTEBOOKS_DIR = BASE_DIR / "notebooks"
 
 # Make sure folders exist
-for folder in [CSV_DIR, DFs_DIR, NOTEBOOKS_DIR]:
+for folder in [CSV_DIR, DATAFRAMES_DIR, NOTEBOOKS_DIR]:
     folder.mkdir(parents=True, exist_ok=True)
