@@ -11,3 +11,6 @@
 *.pyc
 *.pyo
 __pycache__/
+
+#Don't ignore .gitattributes
+!.gitattributes
