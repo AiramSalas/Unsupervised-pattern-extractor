@@ -9,9 +9,10 @@ DATAFRAMES_DIR = BASE_DIR / "dataframes_parquet_files"
 NOTEBOOKS_DIR = BASE_DIR / "notebooks"
 HOURLY_HEATMAPS_DIR = BASE_DIR / "hourly_heatmaps"
 HOURLY_HEATMAPS_IMAGES_DIR = BASE_DIR / "hourly_heatmaps_images"
-HOURLY_GREYSCALE_HEATMAPS_IMAGES_DIR = BASE_DIR / "hourly_greyscale_heatmaps_images"
+HOURLY_GREYSCALE_IMAGES_DIR = BASE_DIR / "hourly_greyscale_images"
+HOURLY_TENSORS_SEASONALITY = "hourly_tensors_seasonality"
 
 # Make sure folders exist
 for folder in [CSV_DIR, DATAFRAMES_DIR, NOTEBOOKS_DIR, HOURLY_HEATMAPS_DIR, 
-               HOURLY_HEATMAPS_IMAGES_DIR, HOURLY_GREYSCALE_HEATMAPS_IMAGES_DIR]:
+               HOURLY_HEATMAPS_IMAGES_DIR, HOURLY_GREYSCALE_IMAGES_DIR]:
     folder.mkdir(parents=True, exist_ok=True)
