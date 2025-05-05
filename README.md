@@ -1,4 +1,4 @@
-# Unsupervised pattern extractor.
+# Unsupervised feature extractor.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -29,8 +29,13 @@ Here is an example of a turbulence heatmap as graphic generated from the data, t
 
 Some graphics generated during the clusters analysis:
 
+Mean turbulence per cluster
 ![Mean Turbulence per Cluster](screenshots/mean_turbulence_cluster.png)
+
+Presence of each cluster along the year
 ![Proportion and Count of each cluster along the year](screenshots/proportion_count_by_cluster.png)
+
+Seasonal dominance
 ![Seasonal dominance and hours of biggest presence during the day](screenshots/seasonal_dominance.png)
 
 
@@ -61,7 +66,7 @@ Some graphics generated during the clusters analysis:
 
 3. Visualise results using the provided notebook.
 
-##Contributions
+## Contributions
 
 Contributions are welcome! Feel free to open an issue or submit a pull request with improvements or suggestions.
 
