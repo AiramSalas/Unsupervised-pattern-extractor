@@ -42,6 +42,7 @@ Some graphics generated during the clusters analysis:
    cd Atmospheric_Turbulence_Clustering
 
 2. Install dependencies, just to install common libraries, each notebook has it's own imports in the first cell.
+   ```bash    
    pip install -r requirements.txt
 
 ## Usage
