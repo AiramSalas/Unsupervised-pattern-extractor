@@ -13,13 +13,13 @@
 This project analyses vertical profiles of atmospheric turbulence using unsupervised deep learning techniques. Hourly heatmaps are generated from turbulence measurements across altitude levels and then transformed into multi-channel tensors to serve as input for models like CNN-EfficientNetB1 in this case, but instead of classification, the CNN is used as feature extractor of useful info for clustering.
 
 ## Features
-| Feature                     | Description                                                                               |
-|-----------------------------|-------------------------------------------------------------------------------------------|
-| 🌪 Profile Processing       | Converts turbulence profiles into hourly heatmaps.                                        |
-| 🧩 Feature extractor        | Use CNN layers BUT as feature extractor from generated heatmaps                           |
-| 🧠 Temporal Deep Learning   | Uses models such as EfficientNetB1+advprop weights to learn time-dependent patterns.      |
-| 🌈 Multi-Channel Tensors    | Includes seasonality day-of-year encoded as sine/cosine channels.                         |         
-| 🔍 Unsupervised Clustering  | Extracts features and clusters patterns without labeled data.                             |
+| Feature                     | Description                                                                                |
+|-----------------------------|--------------------------------------------------------------------------------------------|
+| 🌪 Profile Processing       | Converts turbulence profiles into hourly heatmaps.                                         |
+| 🧩 Feature extractor        | Use CNN BUT, as feature extractor from the generated heatmaps                              |
+| 🌈 Multi-Channel Tensors    | Includes seasonality day-of-year encoded as sine/cosine channels+greyscale heatmap channel | 
+| 🧠 Deep Learning            | Uses EfficientNetB1+advprop weights to extract hourly turbulence profiles features.        |  
+| 🔍 Unsupervised Clustering  | Extracts features and create clusters without labeled data.                                |
 
 ## Screenshots
 Here is an example of a turbulence heatmap as graphic generated from the data, then a greyscale png to be used in a tensor channel:
@@ -43,8 +43,8 @@ Seasonal dominance
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/AiramSalas/Atmospheric_Turbulence_Clustering.git
-   cd Atmospheric_Turbulence_Clustering
+   git clone https://github.com/AiramSalas/Unsupervised-pattern-extractor.git
+   cd Unsupervised-pattern-extractor
 
 2. Install dependencies, just to install common libraries, each notebook has it's own imports in the first cell.
    ```bash    
