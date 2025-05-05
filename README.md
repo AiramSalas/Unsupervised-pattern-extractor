@@ -57,6 +57,8 @@ Some graphics generated during the clusters analysis:
 
    - Use pre-trained model for unsupervised feature extraction and explore clustering results.
 
+*NOTE: generated heatmaps images already included in the repo, this step is the most expensive in terms of hardware performance and time-consuming, so you can play with that part or directly use the provided images.
+
 3. Visualise results using the provided notebook.
 
 ##Contributions
