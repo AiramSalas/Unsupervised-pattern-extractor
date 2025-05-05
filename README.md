@@ -41,7 +41,7 @@ Some graphics generated during the clusters analysis:
    git clone https://github.com/AiramSalas/Atmospheric_Turbulence_Clustering.git
    cd Atmospheric_Turbulence_Clustering
 
-2. Install dependencies
+2. Install dependencies, just to install common libraries, each notebook has it's own imports in the first cell.
    pip install -r requirements.txt
 
 ## Usage
@@ -64,8 +64,8 @@ Contributions are welcome! Feel free to open an issue or submit a pull request w
 
 ## License
 ****************************************************************************
-# *** These data are protected by the Instituto de Astrofisica de Canarias ***
-# ***                           COPYRIGHT (C)                              ***
-# ****************************************************************************
+*** These data are protected by the Instituto de Astrofisica de Canarias ***
+***                           COPYRIGHT (C)                              ***
+****************************************************************************
 
 
